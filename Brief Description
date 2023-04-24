@@ -1,0 +1,9 @@
+Map-Reduce Paradigm C++, Parallel Programming
+
+• CLI application designed to find the perfect powers from an immense set of input files and count the distinct values
+of each exponent
+• Given a file which contains the several file names and the files enumerated in the main file - all containing numbers
+to be processed, the program outputs the lists of powers for each exponent from 0 to a number specified by the user
+in the command line
+• For a better scalability the several files containing numbers are dinamically dispersed among a number of threads
+specified by the user in the command line
